@@ -2,10 +2,6 @@
 
 require_once($_SERVER['DOCUMENT_ROOT'].'/bitrix/modules/main/include/prolog_before.php');
 
-use Bitrix\Main\Application;
-
-$connection = Application::getInstance()->getConnection('default');
-
 CModule::IncludeModule('perfmon');
 CModule::IncludeModule('iblock');
 
